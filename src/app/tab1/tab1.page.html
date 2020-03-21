@@ -7,4 +7,25 @@
 </ion-header>
 <ion-content class="ion-padding">
   <!--<app-explore-container name="Password Security Meter"></app-explore-container>-->
+  <p>
+    Welcome! This app/website will help you figure out how strong your password
+    is. You will be able to see the strength on a meter that gives you a mark
+    out of 100. It will give you notifications and alerts so you can improve
+    your password. If you are having trouble improving your password, you can
+    also go to our "Tips" tab. It will give you useful information on how to
+    create a strong password. Be safe!
+  </p>
+  <ion-button expand="block" (click)="onTipsClick()">Tips</ion-button>
+  <ion-button expand="block" (click)="onMeterClick()"
+    >Test Your Password!</ion-button
+  >
+  <p>About the Creator:</p>
+  <p>
+    Password Strength Meter is an app used to measure the security of passwords
+    of users of this app. This app was created by Yichen Xiao and Daniel David
+    Lee for an experiment for their science class. The experiment was to create
+    an app to detect the security of passwords and try different passwords
+    randomly generated and given by people to see how to create the strongest
+    password possible.
+  </p>
 </ion-content>

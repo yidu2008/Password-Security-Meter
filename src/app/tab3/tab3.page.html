@@ -5,12 +5,67 @@
     </ion-title>
   </ion-toolbar>
 </ion-header>
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tips</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+<ion-content fullscreen class="ion-padding" scroll-y="false">
+  <ion-slides>
+    <ion-slide>
+      <ion-title>How to Create A Strong Password</ion-title>
+    </ion-slide>
+    <ion-slide>
+      <ion-title>Tip 1</ion-title>
+      <p>
+        Don’t make your password hard to remember. Ex: (˚ÔÇ˚ˆÏ©®¨˚Ï¶ˆÁ)
+      </p>
+    </ion-slide>
+    <ion-slide>
+      <ion-title>Tip 2</ion-title>
+      <p>
+        Don’t include your personal information in your password. Ex:
+        ThisStreet18.
+      </p>
+    </ion-slide>
+    <ion-slide>
+      <ion-title>Tip 3</ion-title>
+      <p>
+        Don’t add dictionary words to your password. Ex. MyBedIsComfy
+      </p>
+    </ion-slide>
+    <ion-slide>
+      <ion-title>Tip 4</ion-title>
+      <p>
+        Never use or include the word “Password” in your password. Ex.
+        Password100
+      </p>
+    </ion-slide>
+    <ion-slide>
+      <ion-title>Tip 5</ion-title>
+      <p>
+        Add upper and lower case letters in your password. Ex: LiONsHaVeFuR
+      </p>
+    </ion-slide>
+    <ion-slide>
+      <ion-title>Tip 6</ion-title>
+      <p>
+        Add symbols and numbers in your password. Ex: H¡@Ddnµmb3r2
+      </p>
+    </ion-slide>
+    <ion-slide>
+      <ion-title>Tip 7</ion-title>
+      <p>
+        Make your password at least 12 characters long. Ex. h¡JeN@Més!j0e
+      </p>
+    </ion-slide>
+    <ion-slide>
+      <ion-title>That's It!</ion-title>
+      <p>
+        Create your password and see how strong it is!
+        <ion-button
+          expand="block"
+          fill="outline"
+          (click)="onMeterFromTipsClick()"
+          >Strength Meter</ion-button
+        >
+      </p>
+    </ion-slide>
+  </ion-slides>
   <!--<app-explore-container name="Tips"></app-explore-container>-->
 </ion-content>
