@@ -11,8 +11,15 @@
   <p>
     <ion-item>
       <ion-label></ion-label>
-      <ion-input></ion-input>
+      <ion-input type="password" [formControl]="password"></ion-input>
     </ion-item>
   </p>
-  <ion-button expand="block">Run Program</ion-button>
+  <ion-button expand="block" (click)="onRunProgram()">Run Program</ion-button>
+  <p>
+    Strength Meter:
+  </p>
+  <div
+    class="meter-display"
+    [ngStyle]="{'background-color': meterStrengthColor}"
+  ></div>
 </ion-content>
