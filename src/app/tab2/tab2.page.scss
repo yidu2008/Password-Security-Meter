@@ -2,7 +2,10 @@ ion-content ion-toolbar {
   --background: translucent;
 }
 
-.meter-display {
-  height: 1em;
+.meter-display-container {
   border: 1px solid black;
+  background-color: grey;
+  .meter-display {
+    height: 1em;
+  }
 }

@@ -16,10 +16,22 @@
   </p>
   <ion-button expand="block" (click)="onRunProgram()">Run Program</ion-button>
   <p>
+    Please note that although our program will only test a few things, keep
+    these things in mind:
+  </p>
+  <p>
+    Never, ever, ever use your personal information.
+  </p>
+  <p>
+    Try not to use dictionary words.
+  </p>
+  <p>
     Strength Meter:
   </p>
-  <div
-    class="meter-display"
-    [ngStyle]="{'background-color': meterStrengthColor}"
-  ></div>
+  <div class="meter-display-container">
+    <div
+      class="meter-display"
+      [ngStyle]="{'background-color': meterStrengthColor, 'width': meterStrengthWidth+'%'}"
+    ></div>
+  </div>
 </ion-content>
