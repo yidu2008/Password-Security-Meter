@@ -1,0 +1,10 @@
+{
+  "appId": "com.appsbyyichen.passwordsecuritymeter",
+  "appName": "password-security-meter",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "cordova": {},
+  "server": {
+  }
+}

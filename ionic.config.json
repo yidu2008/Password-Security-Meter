@@ -1,0 +1,7 @@
+{
+  "name": "password-security-meter",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
